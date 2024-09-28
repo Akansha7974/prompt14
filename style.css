@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+div{
+    height: 700px;
+    width: 40%;
+    box-shadow: 1px 1px 2px rgb(95, 92, 92), -1px -1px 2px rgb(95, 92, 92);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div img{
+    margin: 20px;
+}
+div h3{
+    text-align: center;
+    margin: 30px;
+    border: 1px solid transparent;
+    background-color: #ae80ff;
+    padding: 5px 10px;
+    color: white;
+    font-size: 19px;
+}
+div h4{
+    padding: 10px;
+    font-weight: 300;
+}
+div form input{
+    border: 1px solid black;
+    padding: 5px 40px;
+    margin: 10px;
+}
+div form input:hover{
+    box-shadow: 2px 2px 3px black, -2px -2px 3px black;
+}
+div form h5{
+    padding:0  10px;
+}
+div form button {
+    margin: 10px;
+    padding: 5px 10px;
+    background: transparent;
+    color: #ae80ff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+div form button:hover{
+    background-color: #ae80ff;
+    color: white;
+}
